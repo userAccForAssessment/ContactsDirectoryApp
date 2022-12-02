@@ -19,4 +19,5 @@ Packages
 
   
 In ClientApp/, run program by typing:   npm run web
+
 In server/, initialize API by typing:   node.js
