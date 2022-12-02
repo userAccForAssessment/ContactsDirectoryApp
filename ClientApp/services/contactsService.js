@@ -8,7 +8,7 @@ export function getContactsFromApi() {
             if (response.ok) {
                 return response.json();
             }
-            
+            alert('There was some error getting data from the service')
             return Promise.reject('There was some error getting data from the service')
         });
 }
@@ -41,6 +41,7 @@ export function postContactToApi( name, phone, email, address, departmentId ) {
             if (response.ok) {
                 
             } else {
+                alert('Did not save contact correctly!')
                 return Promise.reject(new Error('Did not save contact correctly!'));
             }
         });
@@ -69,6 +70,7 @@ export function updateContactToApi(contactToUpdate) {
         if (response.ok) {
 
         } else {
+            alert('Did not save contact correctly!');
             return Promise.reject(new Error('Did not save contact correctly!'));
         }
     });
