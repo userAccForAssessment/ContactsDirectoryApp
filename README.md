@@ -1,15 +1,16 @@
 # ContactsDirectoryApp
 An application written in react native that keeps a list of contacts and their details.
 
-Uses an express API server to store contact and department data.
+<br>Uses an express API server to store contact and department data.</br>
 
 Packages
+
   ClientApp/
     - expo
     - react-native
     - npm
-    -
-    -
+    
+    
   server/
     - cors
     - express
